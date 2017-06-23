@@ -31,7 +31,8 @@ describe('test ip parse', function() {
   });
 
   it('运算结果的值匹配', function() {
-    expect(ipStrParse('172.18.199.12')).to.equal(1230764);
+    console.log(ipStrParse('172.18.199.12'),'00000000');
+    expect(ipStrParse('172.18.199.12')).to.equal(2886911756);
   });
 
   it('异常测试：数字中间有空格是非法的', function() {
